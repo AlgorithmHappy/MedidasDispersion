@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Estadistica" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/Estadistica" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+					<Add directory="E:/Gerardo/Documents/Codeblocks/GRAFICOS/GLUT/include" />
+					<Add directory="E:/Gerardo/Documents/Codeblocks/GRAFICOS/GLUI/include" />
+				</Compiler>
+				<Linker>
+					<Add option="-lfreeglut" />
+					<Add option="-lopengl32" />
+					<Add option="-lglu32" />
+					<Add option="-lwinmm" />
+					<Add option="-lgdi32" />
+					<Add option="-lglui32" />
+					<Add directory="E:/Gerardo/Documents/Codeblocks/GRAFICOS/GLUI/lib" />
+					<Add directory="E:/Gerardo/Documents/Codeblocks/GRAFICOS/GLUT/lib" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/Estadistica" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add directory="E:/Gerardo/Documents/Codeblocks/GRAFICOS/GLUI/include" />
+					<Add directory="E:/Gerardo/Documents/Codeblocks/GRAFICOS/GLUT/include" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+					<Add option="-lfreeglut" />
+					<Add option="-lopengl32" />
+					<Add option="-lglu32" />
+					<Add option="-lwinmm" />
+					<Add option="-lgdi32" />
+					<Add option="-lglui32" />
+					<Add directory="E:/Gerardo/Documents/Codeblocks/GRAFICOS/GLUI/lib" />
+					<Add directory="E:/Gerardo/Documents/Codeblocks/GRAFICOS/GLUT/lib" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+			<Add directory="E:/Gerardo/Documents/Codeblocks/GRAFICOS/GLUI/include" />
+			<Add directory="E:/Gerardo/Documents/Codeblocks/GRAFICOS/GLUT/include" />
+		</Compiler>
+		<Linker>
+			<Add option="-lfreeglut" />
+			<Add option="-lopengl32" />
+			<Add option="-lglu32" />
+			<Add option="-lwinmm" />
+			<Add option="-lgdi32" />
+			<Add option="-lglui32" />
+			<Add directory="E:/Gerardo/Documents/Codeblocks/GRAFICOS/GLUT/lib" />
+			<Add directory="E:/Gerardo/Documents/Codeblocks/GRAFICOS/GLUI/lib" />
+		</Linker>
+		<Unit filename="main.cpp" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

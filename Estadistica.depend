@@ -1,0 +1,24 @@
+# depslib dependency file v1.0
+1494045858 source:e:\gerardo\documents\codeblocks\estadistica v2\main.cpp
+	<iostream>
+	<cstdlib>
+	<ctime>
+	<glui.h>
+	"Estadistica.h"
+
+1152229378 e:\gerardo\documents\codeblocks\graficos\glui\include\glui.h
+	<GL/freeglut.h>
+	<GL/openglut.h>
+	<GLUT/glut.h>
+	<GL/glut.h>
+	<cstdlib>
+	<cstdio>
+	<cstring>
+	<string>
+	<vector>
+
+1493928905 e:\gerardo\documents\codeblocks\estadistica v2\estadistica.h
+	<iostream>
+	<cstdlib>
+	<cmath>
+
